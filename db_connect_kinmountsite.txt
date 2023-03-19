@@ -1,0 +1,31 @@
+$db=mysqli_connect('localhost','oldtsxgx_kinmount','%BhH{%pZ.5H@','oldtsxgx_kinmount'); namecheap
+****************************************************
+
+
+
+
+mydb
+admin
+12345678 ok 
+
+local host - RDS end point name
+user name
+password
+db name (mydb)
+
+what KID it is a primary key in inquery table, it create by itself?
+
+
+
+$query="insert into inquery(KID,company_name,first_name,last_name,email,tel) values(null,'$company','$fn','$ln','$email','$tel')";
+
+Host : RDS endpoint (mysql -h database-1.cryxu7zenvul.ca-central-1.rds.amazonaws.com -u admin -p)
+Username : DB username (admin)
+Password : DB password (12345678)
+Database : mydatabase (CREATE DATABASE mydatabase;)
+
+conn = mysqli_connect(host, username, password, database);
+
+
+
+
