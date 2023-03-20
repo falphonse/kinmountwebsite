@@ -197,7 +197,7 @@ $fn=$_POST['firstname'];
 $ln=$_POST['lastname'];
 $email=$_POST['email'];
 $tel=$_POST['tel'];
-$db=mysqli_connect('localhost','oldtsxgx_kinmount','%BhH{%pZ.5H@','oldtsxgx_kinmount');
+$db=mysqli_connect('15.223.56.106','oldtsxgx_kinmount','%BhH{%pZ.5H@','oldtsxgx_kinmount');
 $query="insert into inquery(KID,company_name,first_name,last_name,email,tel) values(null,'$company','$fn','$ln','$email','$tel')";
 
 $result=mysqli_query($db,$query);
